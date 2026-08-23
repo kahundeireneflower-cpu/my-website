@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Uganda World Cup 2026 Fan Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <h1>🏆 Uganda <span class="gold">World Cup 2026</span> Fan Portal</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="venues.html">Venues</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main>
+    <section id="contact-info">
+        <h2>Contact & Ticket Enquiry</h2>
+        <p>
+            For official enquiries regarding fan-zone access, ticket verification, 
+            and World Cup activities in Uganda, please use the details below.
+        </p>
+
+        <!-- Definition List for Contact Details -->
+        <div class="contact-details">
+            <h3>Ministry of Sports and Tourism — Fan Portal Enquiries</h3>
+            <dl>
+                <dt>📌 Physical Address</dt>
+                <dd>Plot 8-10, Parliamentary Avenue, Kampala, Uganda</dd>
+
+                <dt>📧 Email</dt>
+                <dd><a href="mailto:info@sports.go.ug">info@sports.go.ug</a></dd>
+
+                <dt>📞 Telephone</dt>
+                <dd>+256 414 234 567 (Main Line)</dd>
+
+                <dt>📱 Toll-Free Hotline</dt>
+                <dd>0800 123 456 (available 8am — 8pm)</dd>
+
+                <dt>🌐 Website</dt>
+                <dd><a href="https://www.sports.go.ug" target="_blank">www.sports.go.ug</a></dd>
+
+                <dt>🕐 Office Hours</dt>
+                <dd>Monday - Friday: 8:00am - 5:00pm</dd>
+            </dl>
+        </div>
+
+        <!-- Embedded Google Map Iframe -->
+        <div class="iframe-container">
+            <h3>📍 Main Fan-Zone Location — Kampala Sports Arena</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7403292728887!2d32.5842791!3d0.3221252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbbfc3af60f31%3A0x5b3b3b3b3b3b3b3b!2sLugogo%2C%20Kampala%2C%20Uganda!5e0!3m2!1sen!2sug!4v1700000000000"
+                width="100%"
+                height="400"
+                style="border: 4px solid #d4a017; border-radius: 8px;"
+                allowfullscreen=""
+                loading="lazy"
+                title="Google Maps showing Kampala Sports Arena, the main fan-zone venue for Uganda World Cup 2026">
+            </iframe>
+            <p style="font-size:0.9rem; color:#555; margin-top:8px;">
+                <strong>📍 Kampala Sports Arena</strong> — Lugogo Bypass, Kampala. 
+                The main fan-zone venue with a capacity of 8,000 fans.
+            </p>
+        </div>
+
+        <!-- Iframe Target Navigation Demo -->
+        <section id="iframe-demo">
+            <h3>📄 View Venues Inside This Page</h3>
+            <p>
+                Click the button below to load the Fan-Zone Venues page inside 
+                this frame:
+            </p>
+            <p>
+                <a href="venues.html" target="venueFrame" style="display:inline-block; background:#1a6b1a; color:white; padding:12px 28px; border-radius:30px; text-decoration:none; font-weight:600; transition:0.3s;">
+                    🏟️ Load Venues in Frame
+                </a>
+            </p>
+            <div class="iframe-container" style="margin-top:15px;">
+                <iframe
+                    name="venueFrame"
+                    width="100%"
+                    height="450"
+                    style="border: 4px solid #d4a017; border-radius: 8px;"
+                    title="Frame displaying fan-zone venues information. Click the button above to load the full venues table."
+                    srcdoc="
+                        <html>
+                            <head>
+                                <style>
+                                    body {
+                                        font-family: 'Segoe UI', sans-serif;
+                                        padding: 40px 30px;
+                                        text-align: center;
+                                        background: #f8faf8;
+                                        color: #1a2a1a;
+                                    }
+                                    h2 {
+                                        color: #1a6b1a;
+                                        font-size: 1.8rem;
+                                    }
+                                    .emoji {
+                                        font-size: 3rem;
+                                        display: block;
+                                        margin-bottom: 20px;
+                                    }
+                                    p {
+                                        font-size: 1.1rem;
+                                        color: #444;
+                                    }
+                                    .hint {
+                                        background: #f5e6b8;
+                                        padding: 15px;
+                                        border-radius: 12px;
+                                        margin-top: 20px;
+                                        color: #1a2a1a;
+                                    }
+                                    a {
+                                        color: #1a6b1a;
+                                        font-weight: 600;
+                                    }
+                                </style>
+                            </head>
+                            <body>
+                                <span class='emoji'>🏟️</span>
+                                <h2>Venues Will Load Here</h2>
+                                <p>Click the <strong>'Load Venues in Frame'</strong> button above to display the full venues table.</p>
+                                <div class='hint'>
+                                    💡 This demonstrates the <code>target</code> attribute linking to a named iframe.
+                                </div>
+                            </body>
+                        </html>
+                    ">
+                </iframe>
+            </div>
+            <p style="font-size:0.85rem; color:#666; margin-top:10px;">
+                <em>💡 This demonstrates the <code>target</code> attribute linking to a 
+                named iframe. The venues page will load within this frame.</em>
+            </p>
+        </section>
+    </section>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="footer-content">
+        <div>
+            <h4>📞 Contact Us</h4>
+            <p>Email: info@sports.go.ug</p>
+            <p>Phone: +256 414 234 567</p>
+            <p>Hotline: 0800 123 456 (toll-free)</p>
+        </div>
+        <div>
+            <h4>🏛️ Physical Address</h4>
+            <p>Ministry of Sports and Tourism</p>
+            <p>Plot 8-10, Parliamentary Avenue</p>
+            <p>Kampala, Uganda</p>
+        </div>
+        <div>
+            <h4>🕐 Office Hours</h4>
+            <p>Monday - Friday: 8:00am - 5:00pm</p>
+            <p>Saturday: 9:00am - 1:00pm</p>
+            <p>Sunday: Closed</p>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2026 Ministry of Sports and Tourism, Uganda. All rights reserved.</p>
+        <p>Official FIFA World Cup 2026 Fan Portal — Trusted Information, Safe Experience.</p>
+    </div>
+</footer
